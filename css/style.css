@@ -55,8 +55,15 @@
 .flex-column-around {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .border {
@@ -93,7 +100,6 @@ button {
 
 button:hover {
     color: #2231B4;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     box-shadow: 0 8px 29.5px -7px #000000;
 }
 
@@ -197,6 +203,7 @@ header {
 
 .bg-white {
     min-height: 37em;
+    background-size: contain;
     background-color: #ffffff;
 }
 
@@ -263,6 +270,21 @@ hr {
 }
 
 /* FOOTER ID */
+
+#margin-item {
+    margin-bottom: 0.5em;
+}
+
+#stars {
+    width: 70%;
+}
+
+#scarica-button2 {
+    color: white;
+    background-color: #5965F3;
+    opacity: 0.7;
+    padding: 1.5em;
+}
 
 #bg-black-footer {
     min-height: 6.75em;
