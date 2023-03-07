@@ -66,6 +66,14 @@
     align-items: start;
 }
 
+.flex-column-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;    
+    row-gap: 10px;
+}
+
 .border {
     border: 2px dashed black;
 }
@@ -87,6 +95,10 @@ a:hover {
 
 .text-white {
     color: white;
+}
+
+.text-purple {
+    color: #737cdd;
 }
 
 
@@ -130,6 +142,9 @@ h4 {
     font-weight: 400;
 }
 
+span {
+    color: white;
+}
 
 /************** HEADER **************/
 /* MENÙ */
@@ -189,7 +204,7 @@ header {
 
 
 /************** MAIN **************/
-/* PROPRIETÀ CONDIVISE BANNER */
+/* PROPRIETÀ */
 
 .container-banner {
     min-height: 37em;
@@ -230,47 +245,6 @@ header {
     width: 100%;
 }
 
-
-/************** FOOTER **************/
-/* PROPRIETÀ CONDIVISE FOOTER */
-
-.container-footer {
-    min-height: 35em;
-    width: 100%;
-}
-
-.bg-black {
-    background-color: #23272A;
-    min-height: 40em;
-}
-
-.aquamarine {
-    background-color: #20B2AA;
-    min-height: 35em;
-    width: calc(100% / 3 * 2);
-}
-
-.red {
-    background-color: #F08080;
-    min-height: 35em;
-    width: calc(100% / 3);
-}
-
-.border-white {
-    border: 2px dashed rgb(255, 255, 255);
-}
-
-hr {
-    color: white;
-}
-
-.footer-text {
-    padding: 0.5em;
-    background-color: #F08080;
-}
-
-/* FOOTER ID */
-
 #margin-item {
     margin-bottom: 0.5em;
 }
@@ -281,9 +255,59 @@ hr {
 
 #scarica-button2 {
     color: white;
-    background-color: #5965F3;
-    opacity: 0.7;
+    background-color: #8c95f3;
     padding: 1.5em;
+}
+
+
+/************** FOOTER **************/
+/* PROPRIETÀ CONDIVISE FOOTER */
+
+.container-footer {
+    min-height: 30em;
+    width: 100%;
+}
+
+.bg-black {
+    background-color: #23272A;
+    min-height: 32em;
+}
+
+.aquamarine {
+    min-height: 25em;
+    width: calc(100% / 3 * 2);
+}
+
+.red {
+    min-height: 25em;
+    width: calc(100% / 3);
+}
+
+.border-white {
+    border: 2px dashed rgb(255, 255, 255);
+}
+
+hr {
+    color: #7E86EA;
+}
+
+.footer-text {
+    padding: 0.5em;
+    background-color: #F08080;
+}
+
+/* FOOTER ID */
+
+#ita {
+    width: 2em;
+}
+
+.icone {
+    margin-right: 1.5em;
+}
+
+#border-bottom {
+    border-bottom: 1px solid #7E86EA;
 }
 
 #bg-black-footer {
@@ -294,5 +318,4 @@ hr {
 #container-menù-footer {
     min-height: 4em;
     width: 100em;
-    background-color: #7FFFD4;
 }
