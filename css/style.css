@@ -272,7 +272,7 @@ header {
 #scarica-button2 {
     color: white;
     background-color: #8c95f3;
-    padding: 1.5em;
+    padding: 1.0em;
 }
 
 
@@ -327,7 +327,7 @@ hr {
 }
 
 #bg-black-footer {
-    min-height: 6.75em;
+    min-height: 4em;
     background-color: #23272A;
 }
 
